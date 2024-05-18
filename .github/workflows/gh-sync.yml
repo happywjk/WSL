@@ -2,6 +2,7 @@
 name: Sync GitHub with ADO
 
 on: 
+  workflow_dispatch:
   issues:
     types: [closed, edited, deleted, reopened, assigned, unassigned, labeled, unlabeled]
   issue_comment:
